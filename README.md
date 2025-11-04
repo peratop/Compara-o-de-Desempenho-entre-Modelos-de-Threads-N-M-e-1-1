@@ -8,7 +8,7 @@
 
 ## Resultados:
 
-Foram medidos os tempos de execução (em milissegundos) de diferentes algoritmos sob os dois modelos.
+Foram medidos os tempos de execução (em milissegundos) de diferentes algoritmos sob os dois modelos.  
 Os resultados mostram que: 
 - No modelo Thread NM com 4 threads de sistema, houve grande aumento de tempo de execução em todas as tarefas, devido ao alto custo de agendamento e gerenciamento de múltiplas tarefas sobre poucas threads reais.
 - No modelo Thread 1:1, cada tarefa teve uma thread dedicada, resultando em menor tempo total de execução.
@@ -27,6 +27,7 @@ Os resultados mostram que:
 - Gustavo Henrique
 - Eduardo Erthal
 - Leonardo Pereira
+
 
 
 
