@@ -1,4 +1,4 @@
-# Comparativo de Desempenho: Thread 1:1 vs Thread NM
+# Comparativo de Desempenho: Thread 1:1 vs Thread N:M
 
 ### Este projeto realiza testes de desempenho entre dois modelos de execução de threads:
 
@@ -8,10 +8,10 @@
 
 ## Resultados:
 
-- Foram medidos os tempos de execução (em milissegundos) de diferentes algoritmos sob os dois modelos.
-Os resultados mostram que, no modelo Thread NM com 4 threads de sistema, houve grande aumento de tempo de execução em todas as tarefas, devido ao alto custo de agendamento e gerenciamento de múltiplas tarefas sobre poucas threads reais.
-
-- Já no modelo Thread 1:1, cada tarefa teve uma thread dedicada, resultando em menor tempo total de execução.
+Foram medidos os tempos de execução (em milissegundos) de diferentes algoritmos sob os dois modelos.
+Os resultados mostram que: 
+- No modelo Thread NM com 4 threads de sistema, houve grande aumento de tempo de execução em todas as tarefas, devido ao alto custo de agendamento e gerenciamento de múltiplas tarefas sobre poucas threads reais.
+- No modelo Thread 1:1, cada tarefa teve uma thread dedicada, resultando em menor tempo total de execução.
 
 ## Links:
 
@@ -27,5 +27,6 @@ Os resultados mostram que, no modelo Thread NM com 4 threads de sistema, houve g
 - Gustavo Henrique
 - Eduardo Erthal
 - Leonardo Pereira
+
 
 
