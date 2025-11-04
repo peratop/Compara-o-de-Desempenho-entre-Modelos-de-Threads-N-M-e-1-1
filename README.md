@@ -11,9 +11,10 @@
 ## Autores:
 
 - Diego Nunes
-- Gustavo Henrique
+- Gustavo Henrique Schott
 - Eduardo Erthal
 - Leonardo Pereira
+
 
 
 
