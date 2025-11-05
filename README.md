@@ -13,8 +13,6 @@ O experimento teve como objetivo comparar o desempenho entre os modelos Thread 1
 
 ### Resultados:  
 
-Os resultados mostraram que: 
-
 - No modelo N:M, houve um aumento significativo no tempo total de execução em todas as tarefas. Isso aconteceu porque o executor precisou gerenciar muitas (milhares em alguns casos) tarefas em apenas quatro threads reais, o que elevou o custo de agendamento e troca de contexto.  
   
 - No modelo Thread 1:1, cada tarefa teve uma thread dedicada, o que eliminou filas de espera e reduziu o tempo total. Mesmo com mais threads do que núcleos disponíveis, o sistema operacional conseguiu distribuir o processamento de forma eficiente.  
@@ -30,6 +28,7 @@ Com base nesses resultados, vemos que o modelo 1:1 é mais vantajoso quando o n�
 - Gustavo Henrique Schott
 - Eduardo Erthal
 - Leonardo Pereira
+
 
 
 
