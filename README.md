@@ -8,10 +8,10 @@
 
 ## Relatório com análise dos resultados: 
 
-### Objetivo
+### Objetivo:
 O experimento teve como objetivo comparar o desempenho entre os modelos Thread 1:1 e Thread N:M, medindo o tempo de execução de diferentes algoritmos. No modelo 1:1, cada tarefa possui sua própria thread, enquanto no modelo N:M foi utilizado um ExecutorService com 4 threads de sistema.
 
-### Resultados  
+### Resultados:  
 
 Os resultados mostraram que: 
 
@@ -21,7 +21,7 @@ Os resultados mostraram que:
   
 - Na tabela anexada acima é possível ver que, enquanto o modelo 1:1 concluiu 5000 tarefas em menos de 1 segundo, o modelo N:M levou mais de 19 segundos para o mesmo conjunto.
 
-### Conslusão  
+### Conclusão:  
 Com base nesses resultados, vemos que o modelo 1:1 é mais vantajoso quando o número de tarefas é muito maior que o número de threads possíveis. Nesses casos, o custo de criar novas threads é **menor** do que o custo de gerenciar filas e agendamentos internos. Já o modelo N:M é mais indicado para tarefas  longas ou bloqueantes, em que o controle de recursos e o reuso de threads se tornam mais importantes que a velocidade bruta de execução.
 
 ## Autores:
@@ -30,6 +30,7 @@ Com base nesses resultados, vemos que o modelo 1:1 é mais vantajoso quando o n�
 - Gustavo Henrique Schott
 - Eduardo Erthal
 - Leonardo Pereira
+
 
 
 
